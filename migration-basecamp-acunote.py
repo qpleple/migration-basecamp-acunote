@@ -5,7 +5,7 @@ from basecampclient.basecamp import Basecamp
 import params
 
 if len(sys.argv) != 2:
-    print "usage: migration-basecamp-acunote [listid]"
+    print "usage: python migration-basecamp-acunote.py [listid]"
     sys.exit(1)
 
 listid = int(sys.argv[1])

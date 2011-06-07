@@ -27,7 +27,7 @@ creatorNames = {
 
 Give the todo list ID in argument to the script and it will output the CSV file to import in Acunote :
 <pre>
-$ migration-basecamp-acunote 3248324
+$ python migration-basecamp-acunote.py 3248324
 Level,Number,Description,Tags,Owner,Status,Priority,Estimate,Remaining,Wiki,Watchers,Related,Duplicate,Version 1
 ,"1","Item B",,"quentin","Not Started",,,,,,,,
 ,"1","Item C",,"quentin","Completed",,,,,,,,
