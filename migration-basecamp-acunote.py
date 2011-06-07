@@ -4,11 +4,11 @@ import xml.etree.ElementTree as ElementTree
 from basecampclient.basecamp import Basecamp
 import params
 
-#if len(sys.argv) != 2:
-#    print "usage: migration-basecamp-acunote [todolistid]"
-#    sys.exit(1)
-#listid = int(sys.argv[1])
-listid = 14499317
+if len(sys.argv) != 2:
+    print "usage: migration-basecamp-acunote [listid]"
+    sys.exit(1)
+
+listid = int(sys.argv[1])
 xml = Basecamp(params.url, params.apikey).todo_list(listid)
 items = ElementTree.fromstring(xml).findall('todo-items/todo-item')
 
