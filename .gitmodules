@@ -1,0 +1,3 @@
+[submodule "basecampclient"]
+	path = basecampclient
+	url = git://github.com/qpleple/basecamp-python-client.git
