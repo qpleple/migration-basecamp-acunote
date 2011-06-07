@@ -10,10 +10,10 @@ Usage
 -----
 Edit the file `params.py` according to your credentials :
 <pre>
-# URL for API calls
+# Basecamp URL for API calls
 url = "https://example.basecamphq.com"
 
-# API key
+# Basecamp API key
 apikey = "04f69569a36d306701238466d5ea12cb097b959d"
 
 # Users
