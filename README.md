@@ -1,5 +1,5 @@
-A Migration script of todo lists from Basecamp to Acunote
-=========================================================
+Migration script of todo lists from Basecamp to Acunote
+=======================================================
 
 Description
 -----------
